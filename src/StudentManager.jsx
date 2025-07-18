@@ -28,7 +28,7 @@ export default function StudentManager() {
 
   return (
     <div className="container">
-      <h2>Student Maneger</h2>
+      <h2>Student Manager</h2>
 
       <StudentList students={students} onDelete={handleDelete} />
 
